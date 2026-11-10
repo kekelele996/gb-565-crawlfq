@@ -1,0 +1,25 @@
+/* crawlfq design tokens — 机场塔台进近图。
+   Night navy (never pure black), fluorescent lamp yellow, signal white.
+   Every concrete colour in the app comes from this file. */
+:root {
+  --night: oklch(23% 0.035 252);
+  --night-2: oklch(28% 0.038 252);
+  --night-3: oklch(33% 0.04 250);
+  --strip: oklch(18% 0.03 254);
+  --panel: oklch(26% 0.032 252);
+  --panel-2: oklch(30% 0.034 251);
+  --signal: oklch(94% 0.008 250);
+  --signal-dim: oklch(78% 0.012 250);
+  --line: oklch(56% 0.03 250 / 0.42);
+  --line-strong: oklch(66% 0.035 248 / 0.6);
+  --lamp: oklch(88% 0.17 95);
+  --lamp-dim: oklch(70% 0.13 95);
+  --green: oklch(74% 0.15 152);
+  --amber: oklch(80% 0.15 82);
+  --red: oklch(64% 0.19 28);
+  --cyan-soft: oklch(78% 0.06 200);
+  --rail: 232px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-data: 'Space Mono', 'Courier New', monospace;
+}
